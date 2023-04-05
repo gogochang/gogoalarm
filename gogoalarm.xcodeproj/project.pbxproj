@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9591405A29DDA57B005DFE98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9591405929DDA57B005DFE98 /* AppDelegate.swift */; };
+		9591405C29DDA57B005DFE98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9591405B29DDA57B005DFE98 /* SceneDelegate.swift */; };
+		9591405E29DDA57B005DFE98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9591405D29DDA57B005DFE98 /* ViewController.swift */; };
+		9591406129DDA57B005DFE98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9591405F29DDA57B005DFE98 /* Main.storyboard */; };
+		9591406329DDA57C005DFE98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9591406229DDA57C005DFE98 /* Assets.xcassets */; };
+		9591406629DDA57C005DFE98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9591406429DDA57C005DFE98 /* LaunchScreen.storyboard */; };
+		9591407129DDA57C005DFE98 /* gogoalarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9591407029DDA57C005DFE98 /* gogoalarmTests.swift */; };
+		9591407B29DDA57C005DFE98 /* gogoalarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9591407A29DDA57C005DFE98 /* gogoalarmUITests.swift */; };
+		9591407D29DDA57C005DFE98 /* gogoalarmUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9591407C29DDA57C005DFE98 /* gogoalarmUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9591406D29DDA57C005DFE98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9591404E29DDA57B005DFE98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9591405529DDA57B005DFE98;
+			remoteInfo = gogoalarm;
+		};
+		9591407729DDA57C005DFE98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9591404E29DDA57B005DFE98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9591405529DDA57B005DFE98;
+			remoteInfo = gogoalarm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9591405629DDA57B005DFE98 /* gogoalarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gogoalarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9591405929DDA57B005DFE98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9591405B29DDA57B005DFE98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9591405D29DDA57B005DFE98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9591406029DDA57B005DFE98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9591406229DDA57C005DFE98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9591406529DDA57C005DFE98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9591406729DDA57C005DFE98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9591406C29DDA57C005DFE98 /* gogoalarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gogoalarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9591407029DDA57C005DFE98 /* gogoalarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gogoalarmTests.swift; sourceTree = "<group>"; };
+		9591407629DDA57C005DFE98 /* gogoalarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gogoalarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9591407A29DDA57C005DFE98 /* gogoalarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gogoalarmUITests.swift; sourceTree = "<group>"; };
+		9591407C29DDA57C005DFE98 /* gogoalarmUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gogoalarmUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9591405329DDA57B005DFE98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9591406929DDA57C005DFE98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9591407329DDA57C005DFE98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9591404D29DDA57B005DFE98 = {
+			isa = PBXGroup;
+			children = (
+				9591405829DDA57B005DFE98 /* gogoalarm */,
+				9591406F29DDA57C005DFE98 /* gogoalarmTests */,
+				9591407929DDA57C005DFE98 /* gogoalarmUITests */,
+				9591405729DDA57B005DFE98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9591405729DDA57B005DFE98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9591405629DDA57B005DFE98 /* gogoalarm.app */,
+				9591406C29DDA57C005DFE98 /* gogoalarmTests.xctest */,
+				9591407629DDA57C005DFE98 /* gogoalarmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9591405829DDA57B005DFE98 /* gogoalarm */ = {
+			isa = PBXGroup;
+			children = (
+				9591405929DDA57B005DFE98 /* AppDelegate.swift */,
+				9591405B29DDA57B005DFE98 /* SceneDelegate.swift */,
+				9591405D29DDA57B005DFE98 /* ViewController.swift */,
+				9591405F29DDA57B005DFE98 /* Main.storyboard */,
+				9591406229DDA57C005DFE98 /* Assets.xcassets */,
+				9591406429DDA57C005DFE98 /* LaunchScreen.storyboard */,
+				9591406729DDA57C005DFE98 /* Info.plist */,
+			);
+			path = gogoalarm;
+			sourceTree = "<group>";
+		};
+		9591406F29DDA57C005DFE98 /* gogoalarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				9591407029DDA57C005DFE98 /* gogoalarmTests.swift */,
+			);
+			path = gogoalarmTests;
+			sourceTree = "<group>";
+		};
+		9591407929DDA57C005DFE98 /* gogoalarmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9591407A29DDA57C005DFE98 /* gogoalarmUITests.swift */,
+				9591407C29DDA57C005DFE98 /* gogoalarmUITestsLaunchTests.swift */,
+			);
+			path = gogoalarmUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9591405529DDA57B005DFE98 /* gogoalarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9591408029DDA57C005DFE98 /* Build configuration list for PBXNativeTarget "gogoalarm" */;
+			buildPhases = (
+				9591405229DDA57B005DFE98 /* Sources */,
+				9591405329DDA57B005DFE98 /* Frameworks */,
+				9591405429DDA57B005DFE98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gogoalarm;
+			productName = gogoalarm;
+			productReference = 9591405629DDA57B005DFE98 /* gogoalarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9591406B29DDA57C005DFE98 /* gogoalarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9591408329DDA57C005DFE98 /* Build configuration list for PBXNativeTarget "gogoalarmTests" */;
+			buildPhases = (
+				9591406829DDA57C005DFE98 /* Sources */,
+				9591406929DDA57C005DFE98 /* Frameworks */,
+				9591406A29DDA57C005DFE98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9591406E29DDA57C005DFE98 /* PBXTargetDependency */,
+			);
+			name = gogoalarmTests;
+			productName = gogoalarmTests;
+			productReference = 9591406C29DDA57C005DFE98 /* gogoalarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9591407529DDA57C005DFE98 /* gogoalarmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9591408629DDA57C005DFE98 /* Build configuration list for PBXNativeTarget "gogoalarmUITests" */;
+			buildPhases = (
+				9591407229DDA57C005DFE98 /* Sources */,
+				9591407329DDA57C005DFE98 /* Frameworks */,
+				9591407429DDA57C005DFE98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9591407829DDA57C005DFE98 /* PBXTargetDependency */,
+			);
+			name = gogoalarmUITests;
+			productName = gogoalarmUITests;
+			productReference = 9591407629DDA57C005DFE98 /* gogoalarmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9591404E29DDA57B005DFE98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					9591405529DDA57B005DFE98 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					9591406B29DDA57C005DFE98 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 9591405529DDA57B005DFE98;
+					};
+					9591407529DDA57C005DFE98 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 9591405529DDA57B005DFE98;
+					};
+				};
+			};
+			buildConfigurationList = 9591405129DDA57B005DFE98 /* Build configuration list for PBXProject "gogoalarm" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9591404D29DDA57B005DFE98;
+			productRefGroup = 9591405729DDA57B005DFE98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9591405529DDA57B005DFE98 /* gogoalarm */,
+				9591406B29DDA57C005DFE98 /* gogoalarmTests */,
+				9591407529DDA57C005DFE98 /* gogoalarmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9591405429DDA57B005DFE98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9591406629DDA57C005DFE98 /* LaunchScreen.storyboard in Resources */,
+				9591406329DDA57C005DFE98 /* Assets.xcassets in Resources */,
+				9591406129DDA57B005DFE98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9591406A29DDA57C005DFE98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9591407429DDA57C005DFE98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9591405229DDA57B005DFE98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9591405E29DDA57B005DFE98 /* ViewController.swift in Sources */,
+				9591405A29DDA57B005DFE98 /* AppDelegate.swift in Sources */,
+				9591405C29DDA57B005DFE98 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9591406829DDA57C005DFE98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9591407129DDA57C005DFE98 /* gogoalarmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9591407229DDA57C005DFE98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9591407D29DDA57C005DFE98 /* gogoalarmUITestsLaunchTests.swift in Sources */,
+				9591407B29DDA57C005DFE98 /* gogoalarmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9591406E29DDA57C005DFE98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9591405529DDA57B005DFE98 /* gogoalarm */;
+			targetProxy = 9591406D29DDA57C005DFE98 /* PBXContainerItemProxy */;
+		};
+		9591407829DDA57C005DFE98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9591405529DDA57B005DFE98 /* gogoalarm */;
+			targetProxy = 9591407729DDA57C005DFE98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9591405F29DDA57B005DFE98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9591406029DDA57B005DFE98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9591406429DDA57C005DFE98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9591406529DDA57C005DFE98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9591407E29DDA57C005DFE98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9591407F29DDA57C005DFE98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9591408129DDA57C005DFE98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = gogoalarm/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.changgyukim.gogoalarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9591408229DDA57C005DFE98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = gogoalarm/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.changgyukim.gogoalarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9591408429DDA57C005DFE98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.changgyukim.gogoalarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gogoalarm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gogoalarm";
+			};
+			name = Debug;
+		};
+		9591408529DDA57C005DFE98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.changgyukim.gogoalarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gogoalarm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gogoalarm";
+			};
+			name = Release;
+		};
+		9591408729DDA57C005DFE98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.changgyukim.gogoalarmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gogoalarm;
+			};
+			name = Debug;
+		};
+		9591408829DDA57C005DFE98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.changgyukim.gogoalarmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gogoalarm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9591405129DDA57B005DFE98 /* Build configuration list for PBXProject "gogoalarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9591407E29DDA57C005DFE98 /* Debug */,
+				9591407F29DDA57C005DFE98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9591408029DDA57C005DFE98 /* Build configuration list for PBXNativeTarget "gogoalarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9591408129DDA57C005DFE98 /* Debug */,
+				9591408229DDA57C005DFE98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9591408329DDA57C005DFE98 /* Build configuration list for PBXNativeTarget "gogoalarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9591408429DDA57C005DFE98 /* Debug */,
+				9591408529DDA57C005DFE98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9591408629DDA57C005DFE98 /* Build configuration list for PBXNativeTarget "gogoalarmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9591408729DDA57C005DFE98 /* Debug */,
+				9591408829DDA57C005DFE98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9591404E29DDA57B005DFE98 /* Project object */;
+}
