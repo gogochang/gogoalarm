@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18FCCEDF4E09BDE63CAFAA4C /* Pods_gogoalarm_gogoalarmUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 212A63AA4FEE14173E2D37CE /* Pods_gogoalarm_gogoalarmUITests.framework */; };
+		889AFAFBB5156384A33B4F29 /* Pods_gogoalarmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95E47334C23213B68CC552BA /* Pods_gogoalarmTests.framework */; };
 		9591405A29DDA57B005DFE98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9591405929DDA57B005DFE98 /* AppDelegate.swift */; };
 		9591405C29DDA57B005DFE98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9591405B29DDA57B005DFE98 /* SceneDelegate.swift */; };
 		9591405E29DDA57B005DFE98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9591405D29DDA57B005DFE98 /* ViewController.swift */; };
@@ -16,6 +18,7 @@
 		9591407129DDA57C005DFE98 /* gogoalarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9591407029DDA57C005DFE98 /* gogoalarmTests.swift */; };
 		9591407B29DDA57C005DFE98 /* gogoalarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9591407A29DDA57C005DFE98 /* gogoalarmUITests.swift */; };
 		9591407D29DDA57C005DFE98 /* gogoalarmUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9591407C29DDA57C005DFE98 /* gogoalarmUITestsLaunchTests.swift */; };
+		D5DBBA63491D026759527E4F /* Pods_gogoalarm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA486CBBDEFFEABBCBE960DA /* Pods_gogoalarm.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07632C7C9605BA653F8DD5BE /* Pods-gogoalarmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gogoalarmTests.release.xcconfig"; path = "Target Support Files/Pods-gogoalarmTests/Pods-gogoalarmTests.release.xcconfig"; sourceTree = "<group>"; };
+		212A63AA4FEE14173E2D37CE /* Pods_gogoalarm_gogoalarmUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gogoalarm_gogoalarmUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		449620CD407706B4DB7CCE52 /* Pods-gogoalarmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gogoalarmTests.debug.xcconfig"; path = "Target Support Files/Pods-gogoalarmTests/Pods-gogoalarmTests.debug.xcconfig"; sourceTree = "<group>"; };
+		56420B4246336F86CFC86282 /* Pods-gogoalarm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gogoalarm.release.xcconfig"; path = "Target Support Files/Pods-gogoalarm/Pods-gogoalarm.release.xcconfig"; sourceTree = "<group>"; };
+		8315A16CD276FAFD7BDDD98A /* Pods-gogoalarm-gogoalarmUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gogoalarm-gogoalarmUITests.release.xcconfig"; path = "Target Support Files/Pods-gogoalarm-gogoalarmUITests/Pods-gogoalarm-gogoalarmUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9591405629DDA57B005DFE98 /* gogoalarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gogoalarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9591405929DDA57B005DFE98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9591405B29DDA57B005DFE98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		9591407629DDA57C005DFE98 /* gogoalarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gogoalarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9591407A29DDA57C005DFE98 /* gogoalarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gogoalarmUITests.swift; sourceTree = "<group>"; };
 		9591407C29DDA57C005DFE98 /* gogoalarmUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gogoalarmUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		95E47334C23213B68CC552BA /* Pods_gogoalarmTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gogoalarmTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF79C178C6B89E5F39AF622 /* Pods-gogoalarm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gogoalarm.debug.xcconfig"; path = "Target Support Files/Pods-gogoalarm/Pods-gogoalarm.debug.xcconfig"; sourceTree = "<group>"; };
+		EA486CBBDEFFEABBCBE960DA /* Pods_gogoalarm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gogoalarm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7CB6DFEE8DA7FB8C3C8487 /* Pods-gogoalarm-gogoalarmUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gogoalarm-gogoalarmUITests.debug.xcconfig"; path = "Target Support Files/Pods-gogoalarm-gogoalarmUITests/Pods-gogoalarm-gogoalarmUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5DBBA63491D026759527E4F /* Pods_gogoalarm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				889AFAFBB5156384A33B4F29 /* Pods_gogoalarmTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18FCCEDF4E09BDE63CAFAA4C /* Pods_gogoalarm_gogoalarmUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24EF6F9E76E295D223550C6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEF79C178C6B89E5F39AF622 /* Pods-gogoalarm.debug.xcconfig */,
+				56420B4246336F86CFC86282 /* Pods-gogoalarm.release.xcconfig */,
+				FB7CB6DFEE8DA7FB8C3C8487 /* Pods-gogoalarm-gogoalarmUITests.debug.xcconfig */,
+				8315A16CD276FAFD7BDDD98A /* Pods-gogoalarm-gogoalarmUITests.release.xcconfig */,
+				449620CD407706B4DB7CCE52 /* Pods-gogoalarmTests.debug.xcconfig */,
+				07632C7C9605BA653F8DD5BE /* Pods-gogoalarmTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8FB4A4BB86C78C4B03024D1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA486CBBDEFFEABBCBE960DA /* Pods_gogoalarm.framework */,
+				212A63AA4FEE14173E2D37CE /* Pods_gogoalarm_gogoalarmUITests.framework */,
+				95E47334C23213B68CC552BA /* Pods_gogoalarmTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9591404D29DDA57B005DFE98 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				9591406F29DDA57C005DFE98 /* gogoalarmTests */,
 				9591407929DDA57C005DFE98 /* gogoalarmUITests */,
 				9591405729DDA57B005DFE98 /* Products */,
+				24EF6F9E76E295D223550C6F /* Pods */,
+				8FB4A4BB86C78C4B03024D1A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9591408029DDA57C005DFE98 /* Build configuration list for PBXNativeTarget "gogoalarm" */;
 			buildPhases = (
+				FAEB748DE8D45D0E70B62F04 /* [CP] Check Pods Manifest.lock */,
 				9591405229DDA57B005DFE98 /* Sources */,
 				9591405329DDA57B005DFE98 /* Frameworks */,
 				9591405429DDA57B005DFE98 /* Resources */,
+				2F7C3CF2ACA0B1D558C63D4E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9591408329DDA57C005DFE98 /* Build configuration list for PBXNativeTarget "gogoalarmTests" */;
 			buildPhases = (
+				E7F86E06721F7C28BE9FF9FB /* [CP] Check Pods Manifest.lock */,
 				9591406829DDA57C005DFE98 /* Sources */,
 				9591406929DDA57C005DFE98 /* Frameworks */,
 				9591406A29DDA57C005DFE98 /* Resources */,
@@ -169,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9591408629DDA57C005DFE98 /* Build configuration list for PBXNativeTarget "gogoalarmUITests" */;
 			buildPhases = (
+				ECF14F79221680358A10187E /* [CP] Check Pods Manifest.lock */,
 				9591407229DDA57C005DFE98 /* Sources */,
 				9591407329DDA57C005DFE98 /* Frameworks */,
 				9591407429DDA57C005DFE98 /* Resources */,
+				712E6E1642FAD5CC5DFF63E3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F7C3CF2ACA0B1D558C63D4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gogoalarm/Pods-gogoalarm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gogoalarm/Pods-gogoalarm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gogoalarm/Pods-gogoalarm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		712E6E1642FAD5CC5DFF63E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gogoalarm-gogoalarmUITests/Pods-gogoalarm-gogoalarmUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gogoalarm-gogoalarmUITests/Pods-gogoalarm-gogoalarmUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gogoalarm-gogoalarmUITests/Pods-gogoalarm-gogoalarmUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7F86E06721F7C28BE9FF9FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gogoalarmTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECF14F79221680358A10187E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gogoalarm-gogoalarmUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAEB748DE8D45D0E70B62F04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gogoalarm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9591405229DDA57B005DFE98 /* Sources */ = {
@@ -432,6 +581,7 @@
 		};
 		9591408129DDA57C005DFE98 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEF79C178C6B89E5F39AF622 /* Pods-gogoalarm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -444,6 +594,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +610,7 @@
 		};
 		9591408229DDA57C005DFE98 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56420B4246336F86CFC86282 /* Pods-gogoalarm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +623,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -486,6 +639,7 @@
 		};
 		9591408429DDA57C005DFE98 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 449620CD407706B4DB7CCE52 /* Pods-gogoalarmTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +659,7 @@
 		};
 		9591408529DDA57C005DFE98 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07632C7C9605BA653F8DD5BE /* Pods-gogoalarmTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +679,7 @@
 		};
 		9591408729DDA57C005DFE98 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB7CB6DFEE8DA7FB8C3C8487 /* Pods-gogoalarm-gogoalarmUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +697,7 @@
 		};
 		9591408829DDA57C005DFE98 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8315A16CD276FAFD7BDDD98A /* Pods-gogoalarm-gogoalarmUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -6,14 +6,22 @@
 //
 
 import UIKit
+import SnapKit
 
 class ViewController: UIViewController {
 
+    let label = UILabel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        label.textAlignment = .center
+        label.text = "Hello, world!"
+        
+        self.view.addSubview(label)
+        label.snp.makeConstraints { make in
+            make.center.equalToSuperview()
+        }
     }
-
-
 }
 
