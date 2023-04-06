@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		18FCCEDF4E09BDE63CAFAA4C /* Pods_gogoalarm_gogoalarmUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 212A63AA4FEE14173E2D37CE /* Pods_gogoalarm_gogoalarmUITests.framework */; };
 		889AFAFBB5156384A33B4F29 /* Pods_gogoalarmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95E47334C23213B68CC552BA /* Pods_gogoalarmTests.framework */; };
+		9512FE9E29DEE23100F5E881 /* AlarmInfoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9512FE9C29DEE23100F5E881 /* AlarmInfoViewCell.swift */; };
+		9512FE9F29DEE23100F5E881 /* AlarmInfoViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9512FE9D29DEE23100F5E881 /* AlarmInfoViewCell.xib */; };
+		95463AE329DEFDDF00DB7788 /* AlarmData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95463AE229DEFDDF00DB7788 /* AlarmData.swift */; };
+		95463AE529DEFE6000DB7788 /* CurrentTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95463AE429DEFE6000DB7788 /* CurrentTime.swift */; };
 		9591405A29DDA57B005DFE98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9591405929DDA57B005DFE98 /* AppDelegate.swift */; };
 		9591405C29DDA57B005DFE98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9591405B29DDA57B005DFE98 /* SceneDelegate.swift */; };
 		9591405E29DDA57B005DFE98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9591405D29DDA57B005DFE98 /* ViewController.swift */; };
@@ -44,6 +48,10 @@
 		449620CD407706B4DB7CCE52 /* Pods-gogoalarmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gogoalarmTests.debug.xcconfig"; path = "Target Support Files/Pods-gogoalarmTests/Pods-gogoalarmTests.debug.xcconfig"; sourceTree = "<group>"; };
 		56420B4246336F86CFC86282 /* Pods-gogoalarm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gogoalarm.release.xcconfig"; path = "Target Support Files/Pods-gogoalarm/Pods-gogoalarm.release.xcconfig"; sourceTree = "<group>"; };
 		8315A16CD276FAFD7BDDD98A /* Pods-gogoalarm-gogoalarmUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gogoalarm-gogoalarmUITests.release.xcconfig"; path = "Target Support Files/Pods-gogoalarm-gogoalarmUITests/Pods-gogoalarm-gogoalarmUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9512FE9C29DEE23100F5E881 /* AlarmInfoViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmInfoViewCell.swift; sourceTree = "<group>"; };
+		9512FE9D29DEE23100F5E881 /* AlarmInfoViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlarmInfoViewCell.xib; sourceTree = "<group>"; };
+		95463AE229DEFDDF00DB7788 /* AlarmData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmData.swift; sourceTree = "<group>"; };
+		95463AE429DEFE6000DB7788 /* CurrentTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentTime.swift; sourceTree = "<group>"; };
 		9591405629DDA57B005DFE98 /* gogoalarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gogoalarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9591405929DDA57B005DFE98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9591405B29DDA57B005DFE98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,7 +109,6 @@
 				449620CD407706B4DB7CCE52 /* Pods-gogoalarmTests.debug.xcconfig */,
 				07632C7C9605BA653F8DD5BE /* Pods-gogoalarmTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -113,6 +120,24 @@
 				95E47334C23213B68CC552BA /* Pods_gogoalarmTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9512FE8B29DECB7800F5E881 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				9512FE9C29DEE23100F5E881 /* AlarmInfoViewCell.swift */,
+				9512FE9D29DEE23100F5E881 /* AlarmInfoViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		95463AE129DEFDCB00DB7788 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				95463AE229DEFDDF00DB7788 /* AlarmData.swift */,
+				95463AE429DEFE6000DB7788 /* CurrentTime.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		9591404D29DDA57B005DFE98 = {
@@ -140,6 +165,8 @@
 		9591405829DDA57B005DFE98 /* gogoalarm */ = {
 			isa = PBXGroup;
 			children = (
+				95463AE129DEFDCB00DB7788 /* Models */,
+				9512FE8B29DECB7800F5E881 /* TableViewCell */,
 				9591405929DDA57B005DFE98 /* AppDelegate.swift */,
 				9591405B29DDA57B005DFE98 /* SceneDelegate.swift */,
 				9591405D29DDA57B005DFE98 /* ViewController.swift */,
@@ -279,6 +306,7 @@
 			files = (
 				9591406629DDA57C005DFE98 /* LaunchScreen.storyboard in Resources */,
 				9591406329DDA57C005DFE98 /* Assets.xcassets in Resources */,
+				9512FE9F29DEE23100F5E881 /* AlarmInfoViewCell.xib in Resources */,
 				9591406129DDA57B005DFE98 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,8 +435,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95463AE529DEFE6000DB7788 /* CurrentTime.swift in Sources */,
+				95463AE329DEFDDF00DB7788 /* AlarmData.swift in Sources */,
 				9591405E29DDA57B005DFE98 /* ViewController.swift in Sources */,
 				9591405A29DDA57B005DFE98 /* AppDelegate.swift in Sources */,
+				9512FE9E29DEE23100F5E881 /* AlarmInfoViewCell.swift in Sources */,
 				9591405C29DDA57B005DFE98 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
