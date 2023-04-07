@@ -13,6 +13,7 @@
 		9512FE9F29DEE23100F5E881 /* AlarmInfoViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9512FE9D29DEE23100F5E881 /* AlarmInfoViewCell.xib */; };
 		95463AE329DEFDDF00DB7788 /* AlarmData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95463AE229DEFDDF00DB7788 /* AlarmData.swift */; };
 		95463AE529DEFE6000DB7788 /* CurrentTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95463AE429DEFE6000DB7788 /* CurrentTime.swift */; };
+		95463AEF29E0358500DB7788 /* AlarmSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95463AEE29E0358500DB7788 /* AlarmSettingViewController.swift */; };
 		9591405A29DDA57B005DFE98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9591405929DDA57B005DFE98 /* AppDelegate.swift */; };
 		9591405C29DDA57B005DFE98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9591405B29DDA57B005DFE98 /* SceneDelegate.swift */; };
 		9591405E29DDA57B005DFE98 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9591405D29DDA57B005DFE98 /* MainViewController.swift */; };
@@ -52,6 +53,7 @@
 		9512FE9D29DEE23100F5E881 /* AlarmInfoViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlarmInfoViewCell.xib; sourceTree = "<group>"; };
 		95463AE229DEFDDF00DB7788 /* AlarmData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmData.swift; sourceTree = "<group>"; };
 		95463AE429DEFE6000DB7788 /* CurrentTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentTime.swift; sourceTree = "<group>"; };
+		95463AEE29E0358500DB7788 /* AlarmSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmSettingViewController.swift; sourceTree = "<group>"; };
 		9591405629DDA57B005DFE98 /* gogoalarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gogoalarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9591405929DDA57B005DFE98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9591405B29DDA57B005DFE98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -165,11 +167,12 @@
 		9591405829DDA57B005DFE98 /* gogoalarm */ = {
 			isa = PBXGroup;
 			children = (
-				95463AE129DEFDCB00DB7788 /* Models */,
-				9512FE8B29DECB7800F5E881 /* TableViewCell */,
 				9591405929DDA57B005DFE98 /* AppDelegate.swift */,
 				9591405B29DDA57B005DFE98 /* SceneDelegate.swift */,
+				95463AE129DEFDCB00DB7788 /* Models */,
+				9512FE8B29DECB7800F5E881 /* TableViewCell */,
 				9591405D29DDA57B005DFE98 /* MainViewController.swift */,
+				95463AEE29E0358500DB7788 /* AlarmSettingViewController.swift */,
 				9591405F29DDA57B005DFE98 /* Main.storyboard */,
 				9591406229DDA57C005DFE98 /* Assets.xcassets */,
 				9591406429DDA57C005DFE98 /* LaunchScreen.storyboard */,
@@ -436,6 +439,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95463AE529DEFE6000DB7788 /* CurrentTime.swift in Sources */,
+				95463AEF29E0358500DB7788 /* AlarmSettingViewController.swift in Sources */,
 				95463AE329DEFDDF00DB7788 /* AlarmData.swift in Sources */,
 				9591405E29DDA57B005DFE98 /* MainViewController.swift in Sources */,
 				9591405A29DDA57B005DFE98 /* AppDelegate.swift in Sources */,

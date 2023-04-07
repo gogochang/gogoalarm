@@ -13,7 +13,7 @@
         <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="gogoalarm" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainViewController" id="BYZ-38-t0r" customClass="MainViewController" customModule="gogoalarm" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -46,9 +46,8 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y3j-4j-oLz" userLabel="BackBtn">
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y3j-4j-oLz" userLabel="BackBtn">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -92,6 +91,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="5q5-nQ-Nft" secondAttribute="trailing" constant="20" id="1BX-0U-2kY"/>
+                            <constraint firstItem="y3j-4j-oLz" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="3qE-3O-0Rg"/>
                             <constraint firstItem="oBa-DQ-s3u" firstAttribute="leading" secondItem="5q5-nQ-Nft" secondAttribute="leading" id="4aH-QO-0MC"/>
                             <constraint firstItem="yjT-Eb-Rkr" firstAttribute="centerY" secondItem="IFl-Rp-dKq" secondAttribute="centerY" id="7aC-pp-Qh5"/>
                             <constraint firstItem="cO1-YH-W5b" firstAttribute="top" secondItem="IFl-Rp-dKq" secondAttribute="bottom" constant="8" symbolic="YES" id="BGu-S8-NzX"/>
@@ -103,7 +103,10 @@
                             <constraint firstItem="IFl-Rp-dKq" firstAttribute="bottom" secondItem="yjT-Eb-Rkr" secondAttribute="bottom" id="ZPi-rF-xwq"/>
                             <constraint firstItem="cO1-YH-W5b" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="hNG-Gs-G4Z"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5q5-nQ-Nft" secondAttribute="bottom" constant="50" id="inU-tF-Z9P"/>
+                            <constraint firstItem="y3j-4j-oLz" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="jdK-yC-EKF"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yjT-Eb-Rkr" secondAttribute="trailing" constant="10" id="jft-YM-qR4"/>
+                            <constraint firstItem="y3j-4j-oLz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qu7-9h-kNG"/>
+                            <constraint firstAttribute="bottom" secondItem="y3j-4j-oLz" secondAttribute="bottom" id="yec-of-dQV"/>
                         </constraints>
                     </view>
                     <connections>
@@ -119,13 +122,81 @@
             </objects>
             <point key="canvasLocation" x="138.1679389312977" y="-2.1126760563380285"/>
         </scene>
+        <!--Alarm Setting View Controller-->
+        <scene sceneID="Vfl-ON-Qkw">
+            <objects>
+                <viewController storyboardIdentifier="AlarmSettingViewController" id="vSF-6W-vfG" customClass="AlarmSettingViewController" customModule="gogoalarm" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3Qh-1e-Oux">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Opb-HL-znz">
+                                <rect key="frame" x="0.0" y="59" width="47" height="35"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="xmark" catalog="system"/>
+                                <connections>
+                                    <action selector="dismissBtnClicked:" destination="vSF-6W-vfG" eventType="touchUpInside" id="ifK-zf-tXn"/>
+                                </connections>
+                            </button>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="wfy-g8-YZ6">
+                                <rect key="frame" x="20" y="114" width="353" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="X9x-Le-TL7"/>
+                                </constraints>
+                                <locale key="locale" localeIdentifier="ko_KR"/>
+                                <connections>
+                                    <action selector="datePickerChanged:" destination="vSF-6W-vfG" eventType="valueChanged" id="JsZ-kO-Niv"/>
+                                </connections>
+                            </datePicker>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="알람설정" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kfg-o0-x3m">
+                                <rect key="frame" x="167" y="66" width="59" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00시간 00분 후에 알림" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kdx-WJ-ZoT" userLabel="differenceTime">
+                                <rect key="frame" x="116.66666666666667" y="222" width="159.66666666666663" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="YIq-dG-PNL"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="wfy-g8-YZ6" firstAttribute="top" secondItem="Opb-HL-znz" secondAttribute="bottom" constant="20" id="AzR-86-0hA"/>
+                            <constraint firstItem="wfy-g8-YZ6" firstAttribute="leading" secondItem="3Qh-1e-Oux" secondAttribute="leading" constant="20" id="D8Q-kh-rj2"/>
+                            <constraint firstItem="Opb-HL-znz" firstAttribute="top" secondItem="YIq-dG-PNL" secondAttribute="top" id="DwM-2D-lhK"/>
+                            <constraint firstItem="kdx-WJ-ZoT" firstAttribute="top" secondItem="wfy-g8-YZ6" secondAttribute="bottom" constant="8" symbolic="YES" id="EMe-tp-hfn"/>
+                            <constraint firstItem="kdx-WJ-ZoT" firstAttribute="centerX" secondItem="3Qh-1e-Oux" secondAttribute="centerX" id="Poo-Rd-X5t"/>
+                            <constraint firstItem="Opb-HL-znz" firstAttribute="leading" secondItem="YIq-dG-PNL" secondAttribute="leading" id="YeF-W1-Vdl"/>
+                            <constraint firstItem="kfg-o0-x3m" firstAttribute="centerX" secondItem="3Qh-1e-Oux" secondAttribute="centerX" id="bpf-Uk-rgL"/>
+                            <constraint firstAttribute="trailing" secondItem="wfy-g8-YZ6" secondAttribute="trailing" constant="20" id="ovu-q5-5wt"/>
+                            <constraint firstItem="kfg-o0-x3m" firstAttribute="centerY" secondItem="Opb-HL-znz" secondAttribute="centerY" id="v6q-tl-SQZ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="datePicker" destination="wfy-g8-YZ6" id="GeP-mR-zXG"/>
+                        <outlet property="differenceTime" destination="kdx-WJ-ZoT" id="n3c-kN-kxV"/>
+                        <outlet property="dismissBtn" destination="Opb-HL-znz" id="47n-LC-Tfa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nBa-vi-loG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="936.64122137404581" y="-2.1126760563380285"/>
+        </scene>
     </scenes>
     <resources>
         <image name="alarm.fill" catalog="system" width="123" height="128"/>
         <image name="gearshape" catalog="system" width="128" height="123"/>
         <image name="plus" catalog="system" width="128" height="113"/>
+        <image name="xmark" catalog="system" width="128" height="113"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGroupedBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

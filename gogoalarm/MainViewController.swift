@@ -52,6 +52,10 @@ extension MainViewController {
     
     @IBAction func addAlarmBtnClicked(_ sender: UIButton) {
         print("MainViewController - addAlarmBtnClicked() called")
+        let alarmSettingVC = storyboard?.instantiateViewController(withIdentifier: "AlarmSettingViewController")
+        alarmSettingVC?.modalPresentationStyle = .fullScreen
+        present(alarmSettingVC!, animated: true, completion: nil)
+        showUI()
     }
     
     @IBAction func backBtnClicked(_ sender: UIButton) {

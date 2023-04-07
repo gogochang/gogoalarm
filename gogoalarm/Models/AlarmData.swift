@@ -8,5 +8,6 @@
 import Foundation
 
 struct AlarmData {
-    
+    var count: Int
+    var time: String
 }
