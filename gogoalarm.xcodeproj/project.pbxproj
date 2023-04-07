@@ -15,7 +15,7 @@
 		95463AE529DEFE6000DB7788 /* CurrentTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95463AE429DEFE6000DB7788 /* CurrentTime.swift */; };
 		9591405A29DDA57B005DFE98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9591405929DDA57B005DFE98 /* AppDelegate.swift */; };
 		9591405C29DDA57B005DFE98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9591405B29DDA57B005DFE98 /* SceneDelegate.swift */; };
-		9591405E29DDA57B005DFE98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9591405D29DDA57B005DFE98 /* ViewController.swift */; };
+		9591405E29DDA57B005DFE98 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9591405D29DDA57B005DFE98 /* MainViewController.swift */; };
 		9591406129DDA57B005DFE98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9591405F29DDA57B005DFE98 /* Main.storyboard */; };
 		9591406329DDA57C005DFE98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9591406229DDA57C005DFE98 /* Assets.xcassets */; };
 		9591406629DDA57C005DFE98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9591406429DDA57C005DFE98 /* LaunchScreen.storyboard */; };
@@ -55,7 +55,7 @@
 		9591405629DDA57B005DFE98 /* gogoalarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gogoalarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9591405929DDA57B005DFE98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9591405B29DDA57B005DFE98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9591405D29DDA57B005DFE98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9591405D29DDA57B005DFE98 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9591406029DDA57B005DFE98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9591406229DDA57C005DFE98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9591406529DDA57C005DFE98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -169,7 +169,7 @@
 				9512FE8B29DECB7800F5E881 /* TableViewCell */,
 				9591405929DDA57B005DFE98 /* AppDelegate.swift */,
 				9591405B29DDA57B005DFE98 /* SceneDelegate.swift */,
-				9591405D29DDA57B005DFE98 /* ViewController.swift */,
+				9591405D29DDA57B005DFE98 /* MainViewController.swift */,
 				9591405F29DDA57B005DFE98 /* Main.storyboard */,
 				9591406229DDA57C005DFE98 /* Assets.xcassets */,
 				9591406429DDA57C005DFE98 /* LaunchScreen.storyboard */,
@@ -437,7 +437,7 @@
 			files = (
 				95463AE529DEFE6000DB7788 /* CurrentTime.swift in Sources */,
 				95463AE329DEFDDF00DB7788 /* AlarmData.swift in Sources */,
-				9591405E29DDA57B005DFE98 /* ViewController.swift in Sources */,
+				9591405E29DDA57B005DFE98 /* MainViewController.swift in Sources */,
 				9591405A29DDA57B005DFE98 /* AppDelegate.swift in Sources */,
 				9512FE9E29DEE23100F5E881 /* AlarmInfoViewCell.swift in Sources */,
 				9591405C29DDA57B005DFE98 /* SceneDelegate.swift in Sources */,

@@ -25,6 +25,7 @@ class AlarmInfoViewCell: UITableViewCell {
             print("#")
         }
     }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

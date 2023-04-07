@@ -8,28 +8,49 @@
 import UIKit
 import SnapKit
 
-class ViewController: UIViewController, UITableViewDelegate {
+class MainViewController: UIViewController, UITableViewDelegate {
     
+    //UI Items
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var settingBtn: UIButton!
     @IBOutlet weak var addBtn: UIButton!
     @IBOutlet weak var alarmTableView: UITableView!
     
-    
+    //TableView Items
     let cellName = "AlarmInfoViewCell"
     let cellReuseIdentifier = "AlarmInfoViewCell"
     
-    let cellSpacingHeight: CGFloat = 20
-    
-    let data = Array(1...3)
+    //Alarm Data
+    var alarms: [AlarmData] = [AlarmData(count: 10, time: "00:00")]
+    var data = Array(1...3)
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("MainViewController - viewDidLoad() called")
         
         setUpUI()
         setUpTableView()
     }
-    
+}
+
+//MARK: Action
+extension MainViewController {
+    //AddButton Action
+    @IBAction func addBtnClicked(_ sender: UIButton) {
+        print("MainViewController - addBtnClicked() called")
+        UIView.animate(withDuration: 0.3) {
+            if self.addBtn.transform == CGAffineTransform.identity {
+                self.addBtn.transform = CGAffineTransform(rotationAngle: CGFloat.pi/4)
+            } else {
+                self.addBtn.transform = CGAffineTransform.identity
+            }
+        }
+    }
+}
+
+//MARK: View
+extension MainViewController {
+    //Setup TableView
     private func setUpTableView() {
         alarmTableView.dataSource = self
         alarmTableView.delegate = self
@@ -40,10 +61,10 @@ class ViewController: UIViewController, UITableViewDelegate {
         alarmTableView.register(nibName, forCellReuseIdentifier: cellReuseIdentifier)
     }
     
+    //Setup UI
     private func setUpUI() {
         print("ViewController - setUpUI() called")
         
-    
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "background.png")!)
         // Add Alarm Button
         addBtn.setImage(UIImage(systemName: "plus"), for: .normal)
@@ -52,23 +73,22 @@ class ViewController: UIViewController, UITableViewDelegate {
     }
 }
 
-extension ViewController: UITableViewDataSource {
-    // Section당 Row의 수
+//MARK: TableView
+extension MainViewController: UITableViewDataSource {
+    // Row Count
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
+        return alarms.count
     }
-
-//    func tableview(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-//        return 100.0
-//    }
-
+    
+    // Row Configure
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellReuseIdentifier, for: indexPath) as! AlarmInfoViewCell
         cell.backgroundColor = UIColor.clear.withAlphaComponent(0)
         cell.selectionStyle = .none
         cell.alarmSwitch.isOn = false
         
+        cell.timeLabel.text = alarms[indexPath.row].time
+        
         return cell
     }
 }
-
