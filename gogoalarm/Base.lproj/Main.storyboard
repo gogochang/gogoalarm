@@ -19,20 +19,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="알람설정" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IFl-Rp-dKq" userLabel="알람설정">
-                                <rect key="frame" x="167" y="59" width="59" height="35"/>
+                                <rect key="frame" x="167" y="59" width="59" height="34.333333333333343"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yjT-Eb-Rkr" userLabel="설정">
-                                <rect key="frame" x="332" y="59" width="51" height="35"/>
+                                <rect key="frame" x="332" y="59" width="51" height="34.333333333333343"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="gearshape" catalog="system">
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="cO1-YH-W5b">
-                                <rect key="frame" x="20" y="102" width="353" height="750"/>
+                                <rect key="frame" x="20" y="101.33333333333331" width="353" height="750.66666666666674"/>
                                 <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="100" reuseIdentifier="cell" rowHeight="100" id="VG8-c2-0WJ">
@@ -46,6 +46,16 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y3j-4j-oLz" userLabel="BackBtn">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="backBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UvR-fS-l6F"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5q5-nQ-Nft">
                                 <rect key="frame" x="323" y="718" width="50" height="50"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
@@ -63,14 +73,30 @@
                                     <action selector="addBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6G5-Mu-e21"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oBa-DQ-s3u">
+                                <rect key="frame" x="323" y="648" width="50" height="50"/>
+                                <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="QSB-vn-LQB"/>
+                                    <constraint firstAttribute="height" constant="50" id="eYy-xJ-KEi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="tintColor" systemColor="systemOrangeColor"/>
+                                <state key="normal" image="alarm.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="addAlarmBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ugw-zU-ugX"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="5q5-nQ-Nft" secondAttribute="trailing" constant="20" id="1BX-0U-2kY"/>
+                            <constraint firstItem="oBa-DQ-s3u" firstAttribute="leading" secondItem="5q5-nQ-Nft" secondAttribute="leading" id="4aH-QO-0MC"/>
                             <constraint firstItem="yjT-Eb-Rkr" firstAttribute="centerY" secondItem="IFl-Rp-dKq" secondAttribute="centerY" id="7aC-pp-Qh5"/>
                             <constraint firstItem="cO1-YH-W5b" firstAttribute="top" secondItem="IFl-Rp-dKq" secondAttribute="bottom" constant="8" symbolic="YES" id="BGu-S8-NzX"/>
                             <constraint firstItem="IFl-Rp-dKq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="CLX-87-iaf"/>
+                            <constraint firstItem="5q5-nQ-Nft" firstAttribute="top" secondItem="oBa-DQ-s3u" secondAttribute="bottom" constant="20" id="U3f-xh-B58"/>
                             <constraint firstAttribute="bottom" secondItem="cO1-YH-W5b" secondAttribute="bottom" id="UH5-N4-E8V"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cO1-YH-W5b" secondAttribute="trailing" constant="20" id="UV6-jY-bo0"/>
                             <constraint firstItem="IFl-Rp-dKq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YVa-hS-ohU"/>
@@ -81,8 +107,10 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="addAlarmBtn" destination="oBa-DQ-s3u" id="5Hv-2C-aAl"/>
                         <outlet property="addBtn" destination="5q5-nQ-Nft" id="qIH-dZ-rnA"/>
                         <outlet property="alarmTableView" destination="cO1-YH-W5b" id="Ra2-a8-TLh"/>
+                        <outlet property="backBtn" destination="y3j-4j-oLz" id="FfV-an-LIG"/>
                         <outlet property="settingBtn" destination="yjT-Eb-Rkr" id="OH8-gd-xGG"/>
                         <outlet property="titleLabel" destination="IFl-Rp-dKq" id="9Tk-aY-9jM"/>
                     </connections>
@@ -93,10 +121,14 @@
         </scene>
     </scenes>
     <resources>
+        <image name="alarm.fill" catalog="system" width="123" height="128"/>
         <image name="gearshape" catalog="system" width="128" height="123"/>
         <image name="plus" catalog="system" width="128" height="113"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
