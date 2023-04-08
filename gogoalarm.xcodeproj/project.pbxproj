@@ -23,6 +23,7 @@
 		9591407129DDA57C005DFE98 /* gogoalarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9591407029DDA57C005DFE98 /* gogoalarmTests.swift */; };
 		9591407B29DDA57C005DFE98 /* gogoalarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9591407A29DDA57C005DFE98 /* gogoalarmUITests.swift */; };
 		9591407D29DDA57C005DFE98 /* gogoalarmUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9591407C29DDA57C005DFE98 /* gogoalarmUITestsLaunchTests.swift */; };
+		9598A7A429E1A11800765C76 /* AlertPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9598A7A329E1A11800765C76 /* AlertPopUpViewController.swift */; };
 		D5DBBA63491D026759527E4F /* Pods_gogoalarm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA486CBBDEFFEABBCBE960DA /* Pods_gogoalarm.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +68,7 @@
 		9591407629DDA57C005DFE98 /* gogoalarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gogoalarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9591407A29DDA57C005DFE98 /* gogoalarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gogoalarmUITests.swift; sourceTree = "<group>"; };
 		9591407C29DDA57C005DFE98 /* gogoalarmUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gogoalarmUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9598A7A329E1A11800765C76 /* AlertPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPopUpViewController.swift; sourceTree = "<group>"; };
 		95E47334C23213B68CC552BA /* Pods_gogoalarmTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gogoalarmTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF79C178C6B89E5F39AF622 /* Pods-gogoalarm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gogoalarm.debug.xcconfig"; path = "Target Support Files/Pods-gogoalarm/Pods-gogoalarm.debug.xcconfig"; sourceTree = "<group>"; };
 		EA486CBBDEFFEABBCBE960DA /* Pods_gogoalarm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gogoalarm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -173,6 +175,7 @@
 				9512FE8B29DECB7800F5E881 /* TableViewCell */,
 				9591405D29DDA57B005DFE98 /* MainViewController.swift */,
 				95463AEE29E0358500DB7788 /* AlarmSettingViewController.swift */,
+				9598A7A329E1A11800765C76 /* AlertPopUpViewController.swift */,
 				9591405F29DDA57B005DFE98 /* Main.storyboard */,
 				9591406229DDA57C005DFE98 /* Assets.xcassets */,
 				9591406429DDA57C005DFE98 /* LaunchScreen.storyboard */,
@@ -442,6 +445,7 @@
 				95463AEF29E0358500DB7788 /* AlarmSettingViewController.swift in Sources */,
 				95463AE329DEFDDF00DB7788 /* AlarmData.swift in Sources */,
 				9591405E29DDA57B005DFE98 /* MainViewController.swift in Sources */,
+				9598A7A429E1A11800765C76 /* AlertPopUpViewController.swift in Sources */,
 				9591405A29DDA57B005DFE98 /* AppDelegate.swift in Sources */,
 				9512FE9E29DEE23100F5E881 /* AlarmInfoViewCell.swift in Sources */,
 				9591405C29DDA57B005DFE98 /* SceneDelegate.swift in Sources */,
